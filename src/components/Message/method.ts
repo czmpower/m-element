@@ -1,4 +1,4 @@
-import type { CreateMessageProps, MessageContext } from './type.ts';
+import type { CreateMessageProps, MessageContext } from './type';
 import MessageConstructor from './Message.vue';
 import { h, mergeProps, render, shallowReactive } from 'vue';
 import * as _ from 'lodash-es';

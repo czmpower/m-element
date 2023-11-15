@@ -5,7 +5,7 @@ import type { ButtonExpose } from './components/Button/types';
 import VIcon from './components/Icons/VIcon.vue';
 import Tooltip from './components/Tooltip/Tooltip.vue';
 import type { TooltipInstance } from './components/Tooltip/types';
-import { createMessage } from './components/Message/method.ts';
+import { createMessage } from './components/Message/method';
 const buttonRef = ref<ButtonExpose>();
 
 const toolTipRef = ref<TooltipInstance>();
