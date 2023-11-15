@@ -1,0 +1,50 @@
+:root {
+  --vp-c-brand-1: var(--vk-color-primary);
+  --vp-c-brand: var(--vk-color-primary);
+  --vp-c-brand-light: var(--vk-color-primary-light-3);
+  --vp-c-brand-lighter: var(--vk-color-primary-light-5);
+  --vp-c-brand-dark: var(--vk-color-primary-dark-2);
+  --vp-c-brand-darker: var(--vk-color-primary);
+  --vp-button-brand-bg: var(--vk-color-primary);
+  --component-preview-bg: var(--vp-code-block-bg);
+  --component-preview-soft: var(--vp-code-block-bg-light);
+}
+
+body {
+  color: var(--vp-c-text-1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc table {
+  width: 100%;
+  display: table;
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: 10px 16px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+}
+
+.vp-doc td {
+  max-width: 250px;
+  white-space: pre-wrap;
+}
+.vp-doc tr:nth-child(2n) {
+  background-color: unset;
+}
+
+.vp-doc tr:last-child th,
+.vp-doc tr:last-child td {
+  border-bottom: none;
+}
