@@ -6,6 +6,7 @@ import { containerPreview, componentPreview } from '@vitepress-demo-preview/plug
 export default defineConfig({
   title: 'Personal notes',
   description: 'A VitePress Site',
+  base: '/m-element/',
   vite: {
     resolve: {
       alias: {
